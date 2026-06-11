@@ -81,7 +81,6 @@ local function java_keymaps()
 end
 
 local function setup_jdtls()
-    print("JDTLS SETUP CALLED")
     -- Get access to the jdtls plugin and all of its functionality
     local jdtls = require "jdtls"
 

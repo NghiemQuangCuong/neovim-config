@@ -1,4 +1,6 @@
-return { -- Highlight, edit, and navigate code
+-- This plugin is used to highlight, edit, and navigate code
+
+return {
   'nvim-treesitter/nvim-treesitter',
   branch = 'master',
   build = ':TSUpdate',

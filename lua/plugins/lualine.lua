@@ -1,3 +1,5 @@
+-- This plugin modify the bottom line (show which mode currently is, git branch, ...)
+
 return {
   'nvim-lualine/lualine.nvim',
   config = function()

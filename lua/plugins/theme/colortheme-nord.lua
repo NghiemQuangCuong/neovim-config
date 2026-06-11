@@ -1,3 +1,5 @@
+-- This plugin is for setting up the color theme
+
 return {
     'shaunsingh/nord.nvim',
     lazy = false,

@@ -1,6 +1,8 @@
+-- This plugin is used to Search Files, Search grep, Search keymap, ...
+
 local ignore_pattern = {
-    'node_modules', 
-    '%.git', 
+    'node_modules',
+    '%.git',
     '%.venv',
     '%.idea',
     '%.gradle',

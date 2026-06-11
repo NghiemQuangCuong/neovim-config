@@ -1,3 +1,5 @@
+-- This plugin will setup mason, as well as common LSP (lua, ts), also some keymap for code navigation
+
 return {
     {
         "williamboman/mason.nvim",

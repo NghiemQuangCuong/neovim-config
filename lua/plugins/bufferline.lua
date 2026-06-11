@@ -1,3 +1,5 @@
+-- This plugin is to modified the buffer (Like the Tab) of neovim. 
+
 return {
   'akinsho/bufferline.nvim',
   dependencies = {
