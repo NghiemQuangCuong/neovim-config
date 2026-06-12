@@ -27,4 +27,6 @@ require("lazy").setup({
     require("plugins.cmp"),
     require("plugins.autopair"),
     require("plugins.git"),
+    require("plugins.whichkey"),
+    require("plugins.comment"),
 })
