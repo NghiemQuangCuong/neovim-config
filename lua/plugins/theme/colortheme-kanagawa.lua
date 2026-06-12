@@ -7,7 +7,7 @@ return {
 
     config = function(_, opts)
         require("kanagawa").setup(opts)
-        vim.cmd.colorscheme("kanagawa")
+        vim.cmd("colorscheme kanagawa-dragon")
     end,
 
     opts = {
@@ -25,12 +25,15 @@ return {
             palette = {},
             theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
         },
-        overrides = function(colors) -- add/modify highlights
-            return {}
+        overrides = function(colors)
+            return {
+                FloatBorder = { fg = colors.palette.dragonBlue },
+                PmenuSel = { bold = true },
+            }
         end,
         theme = "dragon",              -- Load "wave" theme
         background = {               -- map the value of 'background' option to a theme
-            dark = "wave",           -- try "dragon" !
+            dark = "dragon",           -- try "dragon" !
             light = "lotus"
         },
     },

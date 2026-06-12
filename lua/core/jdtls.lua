@@ -291,5 +291,4 @@ local function setup_jdtls()
 end
 
 return {
-    setup_jdtls = setup_jdtls,
-}
+    setup_jdtls = setup_jdtls,}
