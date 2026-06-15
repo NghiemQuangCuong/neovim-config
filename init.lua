@@ -29,4 +29,7 @@ require("lazy").setup({
     require("plugins.git"),
     require("plugins.whichkey"),
     require("plugins.comment"),
+    require("plugins.alpha"),
+    require("plugins.markdown-render"),
+    require("plugins.image-nvim"),
 })
