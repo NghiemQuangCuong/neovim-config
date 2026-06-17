@@ -24,6 +24,8 @@ return {
             { "<leader>w", group = "[W]indow" },
             { "<leader>t", group = "[T]ab" },
             { "<leader>/", group = "Comment" },
+            { "<leader>m", group = "[M]arkdown" },
+            { "<leader>f", group = "[F]ile" },
             { "<leader>l", hidden = true },
             { "<leader>n", hidden = true },
         })

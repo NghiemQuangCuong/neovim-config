@@ -6,7 +6,7 @@ vim.keymap.set({ "n", "v" }, "<Space>", "<Nop>", { silent = true })
 local opts = { noremap = true, silent = true }
 
 -- Save file
-vim.keymap.set({"n", "i"}, "<C-s>", "<Esc> <cmd> w <CR>", opts)
+vim.keymap.set({"n", "i"}, "<C-s>", "<Esc><cmd>w<CR>", opts)
 
 -- quit file
 vim.keymap.set("n", "<C-q>", "<cmd> q <CR>", opts)
@@ -84,3 +84,8 @@ vim.keymap.set("t", "<C-h>", [[<C-\><C-n><C-w>h]])
 vim.keymap.set("t", "<C-j>", [[<C-\><C-n><C-w>j]])
 vim.keymap.set("t", "<C-k>", [[<C-\><C-n><C-w>k]])
 vim.keymap.set("t", "<C-l>", [[<C-\><C-n><C-w>l]])
+
+-- open file in the browser
+vim.keymap.set("n", "<leader>fo", '<cmd>!firefox "%"<cr>', { desc = "[F]ile [O]pen in FireFox" })
+vim.keymap.set("n", "<leader>fr", '<cmd>Neotree reveal<cr>', { desc = "[F]ile [R]eveal in Neotree" })
+

@@ -19,7 +19,7 @@ require("lazy").setup({
 	require("plugins.lualine"),
 	require("plugins.treesitter"),
 	require("plugins.telescope"),
-	require("plugins.lsp-config"),
+	require("plugins.lsp.lsp-config"),
 	require("plugins.toggleterm"),
 	require("plugins.nvim-dap"),
 	require("plugins.springboot-nvim"),
@@ -32,4 +32,6 @@ require("lazy").setup({
     require("plugins.alpha"),
     require("plugins.markdown-render"),
     require("plugins.image-nvim"),
-})
+    require("plugins.lsp.nvim-metals"),
+    }
+)

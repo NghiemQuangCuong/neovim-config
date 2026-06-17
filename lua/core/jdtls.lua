@@ -184,6 +184,8 @@ local function setup_jdtls()
                     "java.util.Objects.requireNonNull",
                     "java.util.Objects.requireNonNullElse",
                     "org.mockito.Mockito.*",
+                    "org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*",
+                    "org.springframework.test.web.servlet.result.MockMvcResultMatchers.",
                 },
                 -- Try not to suggest imports from these packages in the code action window
                 filteredTypes = {

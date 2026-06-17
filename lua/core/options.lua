@@ -26,3 +26,6 @@ vim.opt.runtimepath:remove '/usr/share/vim/vimfiles' -- Separate Vim plugins fro
 vim.o.wrap = false -- Display lines as one long line (default: true)
 vim.o.linebreak = true -- Companion to wrap, don't split words (default: false)
 vim.o.hlsearch = false -- Set highlight on search (default: true
+vim.o.timeoutlen = 300 -- Time to wait for a mapped sequence to complete (in milliseconds) (default: 1000)
+vim.o.fileencoding = 'utf-8' -- The encoding written to a file (default: 'utf-8')
+vim.o.scrolloff = 4 -- Minimal number of screen lines to keep above and below the cursor (default: 0)
