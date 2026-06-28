@@ -78,6 +78,7 @@ vim.keymap.set("n", "<leader>b", "<cmd> enew <CR>", vim.tbl_extend("force", opts
 
 -- delete single character without copying into register
 vim.keymap.set("n", "x", '"_x', vim.tbl_extend("force", opts, { desc = "Delete (without copy to register)" }))
+vim.keymap.set("x", "x", '"_d')
 
 vim.keymap.set("t", "<C-Space>", [[<C-\><C-n>]], { desc = "Exit terminal mode" }) -- Exit terminal mode, to go back terminal mode again press i (insert)
 vim.keymap.set("t", "<C-h>", [[<C-\><C-n><C-w>h]])

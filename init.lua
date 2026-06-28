@@ -33,5 +33,6 @@ require("lazy").setup({
     require("plugins.markdown-render"),
     require("plugins.image-nvim"),
     require("plugins.lsp.nvim-metals"),
+    require("plugins.nvim-ts-autotag"),
     }
 )
